@@ -1,0 +1,122 @@
+/* General Page Layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    background: #003366;
+    padding: 12px 20px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+.container {
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #003366;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background: #eef6ff;
+}
+
+/* Status Colors */
+.for-sale {
+    color: green;
+    font-weight: bold;
+}
+
+.rented {
+    color: gray;
+    font-weight: bold;
+}
+
+/* Gallery */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+figure {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+figure img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* Contact Form */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+button {
+    background: #003366;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #0055aa;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 15px;
+    background: #003366;
+    color: white;
+}
